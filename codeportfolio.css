@@ -1,0 +1,117 @@
+body {
+	overflow: auto;
+	color: #000033;
+	background: #e0ffff;
+	background-image: linear-gradient(#1e90ff 10%, #00bfff 50%, #e0ffff 80%);
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: "Merriweather", serif;
+}
+
+header {
+	margin-top: 0;
+	padding: 10px;
+}
+
+/*img {
+	width: 30%;
+	float: left;
+	margin: 1.66%;
+	object-fit: cover;
+	height: 500px;
+}*/
+
+/*nav {
+  float: right;
+  margin-top: 2px;
+  word-spacing: 2px;
+  color: #e0ffff;
+}*/
+
+/*.main-nav {
+  display: flex;
+  float: right;
+  list-style-type: none;
+  margin: 2px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000033;
+  width: 100%;
+  border: 4px transparent;
+  border-radius: 15px;
+}*/
+
+.push {
+	margin-left: auto;
+}
+
+li a {
+	display: block;
+	color: #e0ffff;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+/* Change the link color to ##00BFFF(baby blue) on hover */
+li a:hover {
+	background-color: #00bfff;
+}
+
+body {
+	font-family: "Muli", sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	margin: 0;
+}
+
+.container {
+	display: flex;
+	width: 90vw;
+	overflow: auto;
+}
+
+.panel {
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 80vh;
+	border-radius: 50px;
+	color: #fff;
+	cursor: pointer;
+	flex: 0.5;
+	margin: 10px;
+	position: relative;
+	transition: flex 0.7s ease-in;
+}
+
+.panel h3 {
+	font-size: 36px;
+	position: absolute;
+	bottom: 20px;
+	left: 20px;
+	margin: 0;
+	opacity: 0;
+}
+
+.panel.active {
+	flex: 5;
+}
+
+.panel.active h3 {
+	opacity: 1;
+	transition: opacity 0.3s ease-in 0.4s;
+}
+
+@media (max-width: 680px) {
+	/*.container {
+    width: 100vw;
+  }*/
+
+	.panel:nth-of-type(4),
+	.panel:nth-of-type(5) {
+		display: none;
+	}
+}
