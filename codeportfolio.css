@@ -10,36 +10,7 @@ body {
 
 header {
 	margin-top: 0;
-	padding: 10px;
 }
-
-/*img {
-	width: 30%;
-	float: left;
-	margin: 1.66%;
-	object-fit: cover;
-	height: 500px;
-}*/
-
-/*nav {
-  float: right;
-  margin-top: 2px;
-  word-spacing: 2px;
-  color: #e0ffff;
-}*/
-
-/*.main-nav {
-  display: flex;
-  float: right;
-  list-style-type: none;
-  margin: 2px;
-  padding: 0;
-  overflow: hidden;
-  background-color: #000033;
-  width: 100%;
-  border: 4px transparent;
-  border-radius: 15px;
-}*/
 
 .push {
 	margin-left: auto;
