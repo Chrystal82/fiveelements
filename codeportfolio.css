@@ -8,9 +8,6 @@ body {
 	font-family: "Merriweather", serif;
 }
 
-header {
-	margin-top: 0;
-}
 
 .push {
 	margin-left: auto;
@@ -18,7 +15,7 @@ header {
 
 li a {
 	display: block;
-	color: #e0ffff;
+	color: black;
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
